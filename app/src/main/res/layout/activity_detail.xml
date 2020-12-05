@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity_detail">
+
+    <ImageView
+        android:id="@+id/itemImage"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="300dp"
+        android:layout_alignParentRight="true"
+        android:scaleType="centerInside"
+        android:gravity="right|center_vertical"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:padding="10px"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="KOOLKICKS"
+            android:id="@+id/itemname"
+            android:fontFamily="@font/gothic_regular"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_marginLeft="10dp"
+            android:textColor="#000"
+            android:layout_weight="1"
+          />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemprice"
+            android:fontFamily="@font/gothic_regular"
+            android:layout_gravity="center"
+            android:textSize="18dp"
+            android:layout_marginRight="10dp"
+            android:textStyle="bold"
+            android:textColor="#000"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:hint="ADD TO CART"
+        android:id="@+id/btn_add_cart"
+        android:textColor="#000"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:textSize="20dp"
+        android:textColorHint="#000"
+        android:background="@drawable/edittext_style"
+        android:fontFamily="@font/gothic_regular"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:hint="BUY NOW"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="30dp"
+        android:id="@+id/btn_buy_now"
+        android:textColor="#000"
+        android:textSize="20dp"
+        android:textColorHint="#000"
+        android:background="@drawable/edittext_style"
+        android:fontFamily="@font/gothic_regular"
+        android:layout_marginTop="30dp"
+        android:singleLine="true"/>
+</LinearLayout>

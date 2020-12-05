@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "596777295841",
+    "firebase_url": "https://koolkicks-5972a.firebaseio.com",
+    "project_id": "koolkicks-5972a",
+    "storage_bucket": "koolkicks-5972a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596777295841:android:2aaee75b745af793e8bca0",
+        "android_client_info": {
+          "package_name": "com.test.koolkicks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596777295841-fmvghglq3oek6fbskpoi65o2e92t2vi7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHy6JJO5NrUtD9YkL0tvmmCDwlYOZvXMM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596777295841-fmvghglq3oek6fbskpoi65o2e92t2vi7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

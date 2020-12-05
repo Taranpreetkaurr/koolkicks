@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/card_number"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:hint="Card Number"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/expiry"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Expiration Date"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/security_code"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Security Code"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkbox"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/gothic_regular"
+        android:text="Billing Address Same as Shipping Address"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/appartment_num"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Apartment Number"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/street_address"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Street Address"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/street_name"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Street Name"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/post_code"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="Postal Code"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:id="@+id/city"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:hint="City"
+        android:textSize="17dp"
+        android:drawablePadding="10dp"
+        android:fontFamily="@font/gothic_regular"
+        android:background="@drawable/edittext_style"
+        android:singleLine="true"/>
+
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:id="@+id/btn_signin"
+        android:layout_gravity="center"
+        android:hint="Continue"
+        android:textColor="#fff"
+        android:textSize="20dp"
+        android:textColorHint="#fff"
+        android:fontFamily="@font/gothic_regular"
+        android:layout_marginTop="15dp"
+        android:singleLine="true"/>
+
+
+</LinearLayout>
